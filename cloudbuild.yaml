@@ -1,10 +1,4 @@
 steps:
-  # 0. Debug Environment
-  - name: 'gcr.io/cloud-builders/docker'
-    id: 'debug-check'
-    entrypoint: 'bash'
-    args: ['-c', 'ls -R']
-
   # 1. Build & Push Ingest Service
   - name: 'gcr.io/cloud-builders/docker'
     id: 'build-ingest'
