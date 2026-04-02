@@ -1,0 +1,481 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Executive Overview" [level=1] [ref=e5]
+        - paragraph [ref=e6]: Live Market Telemetry // Session IC-0226
+      - generic [ref=e7]:
+        - generic [ref=e10]: "System: Online"
+        - generic [ref=e11]: "Last Updated: 20:07:15"
+        - button "Log out" [ref=e12] [cursor=pointer]
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - heading "Telemetry // Stage 01" [level=2] [ref=e17]: Telemetry // Stage 01
+            - heading "Where We Stand Now" [level=3] [ref=e19]
+          - generic [ref=e20]:
+            - generic [ref=e21]: TAM Exposure
+            - generic [ref=e22]: SAM Exposure
+            - generic [ref=e23]: SOM Exposure
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - paragraph [ref=e26]: Total Addressable Market
+            - generic [ref=e27]:
+              - heading "$4.18B" [level=3] [ref=e28]
+              - generic [ref=e29]:
+                - img [ref=e30]
+                - text: +12.4%
+            - application [ref=e35]
+            - generic [ref=e41]:
+              - generic [ref=e42]: 7D Trend
+              - generic [ref=e43]: Real-time Telemetry
+          - generic [ref=e44]:
+            - paragraph [ref=e45]: Serviceable Market
+            - generic [ref=e46]:
+              - heading "$1.82B" [level=3] [ref=e47]
+              - generic [ref=e48]:
+                - img [ref=e49]
+                - text: +4.1%
+            - application [ref=e54]
+            - generic [ref=e60]:
+              - generic [ref=e61]: 7D Trend
+              - generic [ref=e62]: Real-time Telemetry
+          - generic [ref=e63]:
+            - paragraph [ref=e64]: Market Share
+            - generic [ref=e65]:
+              - heading "14.2%" [level=3] [ref=e66]
+              - generic [ref=e67]:
+                - img [ref=e68]
+                - text: +1.2%
+            - application [ref=e73]
+            - generic [ref=e79]:
+              - generic [ref=e80]: 7D Trend
+              - generic [ref=e81]: Real-time Telemetry
+          - generic [ref=e82]:
+            - paragraph [ref=e83]: Capital Efficiency
+            - generic [ref=e84]:
+              - heading "0.82x" [level=3] [ref=e85]
+              - generic [ref=e86]:
+                - img [ref=e87]
+                - text: "-0.14x"
+            - application [ref=e92]
+            - generic [ref=e98]:
+              - generic [ref=e99]: 7D Trend
+              - generic [ref=e100]: Real-time Telemetry
+        - generic [ref=e101]:
+          - generic [ref=e102]:
+            - heading "Market Dominance // 7D Telemetry" [level=4] [ref=e103]
+            - paragraph [ref=e104]: Share Trajectory
+          - application [ref=e109]:
+            - generic [ref=e118]:
+              - generic [ref=e119]:
+                - generic [ref=e121]: Mon
+                - generic [ref=e123]: Tue
+                - generic [ref=e125]: Wed
+                - generic [ref=e127]: Thu
+                - generic [ref=e129]: Fri
+                - generic [ref=e131]: Sat
+                - generic [ref=e133]: Sun
+              - generic [ref=e134]:
+                - generic [ref=e136]: "0"
+                - generic [ref=e138]: "4"
+                - generic [ref=e140]: "8"
+                - generic [ref=e142]: "12"
+                - generic [ref=e144]: "16"
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - heading "Intelligence // Stage 02" [level=2] [ref=e148]
+            - heading "Forces Reshaping the Market" [level=3] [ref=e149]
+          - generic [ref=e150]:
+            - combobox [ref=e151] [cursor=pointer]:
+              - option "All Regions" [selected]
+              - option "North West Cluster"
+              - option "Midlands Hub"
+              - option "Central Belt Scotland"
+            - combobox [ref=e153] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Obvious Winners"
+              - option "Borderline"
+              - option "Distressed"
+            - combobox [ref=e155] [cursor=pointer]:
+              - option "No Signal Filters" [selected]
+              - option "Talent Freeze"
+              - option "Debt Whiplash"
+              - option "Leverage Creep"
+              - option "Board Volatility"
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - heading "Topology Map" [level=4] [ref=e159]
+              - paragraph [ref=e160]: Growth x Profitability
+            - application [ref=e165]:
+              - generic [ref=e180]:
+                - generic [ref=e181]:
+                  - generic [ref=e183]: 0%
+                  - generic [ref=e185]: 25%
+                  - generic [ref=e187]: 50%
+                  - generic [ref=e189]: 75%
+                  - generic [ref=e191]: 100%
+                - generic [ref=e192]: Revenue Growth (YoY) →
+                - generic [ref=e193]:
+                  - generic [ref=e195]: "-20%"
+                  - generic [ref=e197]: 0%
+                  - generic [ref=e199]: 20%
+                  - generic [ref=e201]: 40%
+                  - generic [ref=e203]: 50%
+                - generic [ref=e204]: EBITDA Margin (%) ↑
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - heading "Market Benchmark // Performance Pulse" [level=3] [ref=e208]
+              - generic [ref=e211]: Sovereign Feed Active
+            - table [ref=e213]:
+              - rowgroup [ref=e214]:
+                - row "Entity Topology Proj. Share CAGR / Growth Net Efficiency Signal Status" [ref=e215]:
+                  - columnheader "Entity Topology" [ref=e216]
+                  - columnheader "Proj. Share" [ref=e217]
+                  - columnheader "CAGR / Growth" [ref=e218]
+                  - columnheader "Net Efficiency" [ref=e219]
+                  - columnheader "Signal Status" [ref=e220]
+              - rowgroup [ref=e221]:
+                - row "BlueTech Corp 24.2% +12.4% 18.1% Dominant" [ref=e222]:
+                  - cell "BlueTech Corp" [ref=e223]:
+                    - generic [ref=e226]: BlueTech Corp
+                  - cell "24.2%" [ref=e227]
+                  - cell "+12.4%" [ref=e228]
+                  - cell "18.1%" [ref=e229]
+                  - cell "Dominant" [ref=e230]
+                - row "SilverLine Inc 18.5% +5.2% 22.4% Steady" [ref=e231]:
+                  - cell "SilverLine Inc" [ref=e232]:
+                    - generic [ref=e235]: SilverLine Inc
+                  - cell "18.5%" [ref=e236]
+                  - cell "+5.2%" [ref=e237]
+                  - cell "22.4%" [ref=e238]
+                  - cell "Steady" [ref=e239]
+      - generic [ref=e240]:
+        - generic [ref=e241]:
+          - generic [ref=e242]:
+            - heading "Strategy // Stage 03" [level=2] [ref=e243]
+            - heading "Where We Can Go Next" [level=3] [ref=e244]
+          - button "Trigger Adjacency Swarm" [ref=e246] [cursor=pointer]
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - generic [ref=e250]:
+              - generic [ref=e251]:
+                - heading "Quantum Leap AI" [level=4] [ref=e252]
+                - paragraph [ref=e253]: Series A Target
+              - generic [ref=e254]: positive
+            - generic [ref=e255]:
+              - generic [ref=e256]: "#ip_rich"
+              - generic [ref=e257]: "#founder_led"
+            - generic [ref=e258]:
+              - generic [ref=e262]: "Adjacency: 95%"
+              - generic [ref=e265]: high
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - heading "BlueTech Corp" [level=4] [ref=e269]
+                - paragraph [ref=e270]: Encroachment Alert
+              - generic [ref=e271]: negative
+            - generic [ref=e273]: "#regional_overlap"
+            - generic [ref=e274]:
+              - generic [ref=e278]: "Adjacency: 88%"
+              - generic [ref=e281]: medium
+          - generic [ref=e282]:
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - heading "Confidential Alpha" [level=4] [ref=e286]
+                - paragraph [ref=e287]: OTC Secondary
+              - generic [ref=e288]: neutral
+            - generic [ref=e290]: "#shadow_market"
+            - generic [ref=e291]:
+              - generic [ref=e295]: "Adjacency: 99%"
+              - generic [ref=e298]: high
+          - generic [ref=e299]:
+            - generic [ref=e300]:
+              - generic [ref=e301]:
+                - heading "GreenGrid UK" [level=4] [ref=e302]
+                - paragraph [ref=e303]: M&A Adjacency
+              - generic [ref=e304]: positive
+            - generic [ref=e306]: "#synergy_high"
+            - generic [ref=e307]:
+              - generic [ref=e311]: "Adjacency: 92%"
+              - generic [ref=e314]: low
+      - generic [ref=e315]:
+        - generic [ref=e317]:
+          - heading "Status // Telemetry" [level=2] [ref=e318]
+          - heading "Portfolio Command Centre" [level=3] [ref=e319]
+        - generic [ref=e320]:
+          - generic [ref=e324]:
+            - generic [ref=e329]:
+              - heading "System Status" [level=2] [ref=e330]
+              - paragraph [ref=e331]: Online
+            - generic [ref=e332]:
+              - generic [ref=e333]:
+                - img [ref=e334]
+                - generic [ref=e341]: Real-Time Shadow Market Sync Active
+              - generic [ref=e342]:
+                - img [ref=e343]
+                - text: Mar 2026
+          - generic [ref=e355]:
+            - generic [ref=e358]:
+              - generic [ref=e359]:
+                - img [ref=e360]
+                - paragraph [ref=e362]: Entities Monitored
+              - paragraph [ref=e363]: "894"
+              - paragraph [ref=e364]: Active counterparties
+            - generic [ref=e367]:
+              - generic [ref=e368]:
+                - img [ref=e369]
+                - paragraph [ref=e371]: Sweeps Today
+              - paragraph [ref=e372]: "142"
+              - paragraph [ref=e373]: "Last: Just now"
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - img [ref=e378]
+                - paragraph [ref=e381]: Alerts Generated (30d)
+              - paragraph [ref=e382]: "27"
+              - paragraph [ref=e383]: This billing period
+            - generic [ref=e386]:
+              - generic [ref=e387]:
+                - img [ref=e388]
+                - paragraph [ref=e391]: Next Scheduled Sweep
+              - paragraph [ref=e392]: 20:26 GMT
+              - paragraph [ref=e393]: Just now
+      - generic [ref=e394]:
+        - generic [ref=e396]:
+          - heading "Exposure // Stage 04" [level=2] [ref=e397]
+          - heading "Counterparty Risk Intelligence" [level=3] [ref=e398]
+        - generic [ref=e399]:
+          - generic [ref=e400]:
+            - generic [ref=e403]:
+              - generic [ref=e404]:
+                - img [ref=e405]
+                - paragraph [ref=e407]: Counterparties
+              - paragraph [ref=e408]: "8"
+              - paragraph [ref=e409]: Portfolio total
+            - generic [ref=e412]:
+              - generic [ref=e413]:
+                - img [ref=e414]
+                - paragraph [ref=e416]: Elevated Risk
+              - paragraph [ref=e417]: "3"
+              - paragraph [ref=e418]: 38% of portfolio
+            - generic [ref=e421]:
+              - generic [ref=e422]:
+                - img [ref=e423]
+                - paragraph [ref=e426]: Stable
+              - paragraph [ref=e427]: "3"
+              - paragraph [ref=e428]: No active triggers
+            - generic [ref=e431]:
+              - generic [ref=e432]:
+                - img [ref=e433]
+                - paragraph [ref=e436]: Improved
+              - paragraph [ref=e437]: "2"
+              - paragraph [ref=e438]: Debt clearing trend
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - heading "Portfolio Risk Grid // Live Monitoring" [level=3] [ref=e441]
+              - generic [ref=e444]: 3 Alerts Active
+            - table [ref=e446]:
+              - rowgroup [ref=e447]:
+                - row "Entity CH Number Type Region Risk Tier Conviction Charges Last Signal" [ref=e448]:
+                  - columnheader "Entity" [ref=e449]
+                  - columnheader "CH Number" [ref=e450]
+                  - columnheader "Type" [ref=e451]
+                  - columnheader "Region" [ref=e452]
+                  - columnheader "Risk Tier" [ref=e453]
+                  - columnheader "Conviction" [ref=e454]
+                  - columnheader "Charges" [ref=e455]
+                  - columnheader "Last Signal" [ref=e456]
+              - rowgroup [ref=e457]:
+                - 'row "Cobalt Ventures International Ltd 12345678 SUPPLIER Midlands Elevated 91 3 2026-02-26 PSC change: New controlling entity registered" [ref=e458]':
+                  - cell "Cobalt Ventures International Ltd" [ref=e459]:
+                    - generic [ref=e462]: Cobalt Ventures International Ltd
+                  - cell "12345678" [ref=e463]
+                  - cell "SUPPLIER" [ref=e464]
+                  - cell "Midlands" [ref=e465]
+                  - cell "Elevated" [ref=e466]:
+                    - generic [ref=e467]: Elevated
+                  - cell "91" [ref=e469]:
+                    - generic [ref=e473]: "91"
+                  - cell "3" [ref=e474]
+                  - 'cell "2026-02-26 PSC change: New controlling entity registered" [ref=e475]':
+                    - generic [ref=e476]:
+                      - paragraph [ref=e477]: 2026-02-26
+                      - paragraph [ref=e478]: "PSC change: New controlling entity registered"
+                - row "Meridian Capital Holdings Ltd 09847231 BORROWER North West Elevated 88 4 2026-02-25 New debenture registered — Barclays Bank PLC" [ref=e479]:
+                  - cell "Meridian Capital Holdings Ltd" [ref=e480]:
+                    - generic [ref=e483]: Meridian Capital Holdings Ltd
+                  - cell "09847231" [ref=e484]
+                  - cell "BORROWER" [ref=e485]
+                  - cell "North West" [ref=e486]
+                  - cell "Elevated" [ref=e487]:
+                    - generic [ref=e488]: Elevated
+                  - cell "88" [ref=e490]:
+                    - generic [ref=e494]: "88"
+                  - cell "4" [ref=e495]
+                  - cell "2026-02-25 New debenture registered — Barclays Bank PLC" [ref=e496]:
+                    - generic [ref=e497]:
+                      - paragraph [ref=e498]: 2026-02-25
+                      - paragraph [ref=e499]: New debenture registered — Barclays Bank PLC
+                - row "Helix Infrastructure Group PLC 11234567 SUPPLIER Midlands Elevated 82 5 2026-02-24 Annual accounts overdue — HMRC filing default" [ref=e500]:
+                  - cell "Helix Infrastructure Group PLC" [ref=e501]:
+                    - generic [ref=e504]: Helix Infrastructure Group PLC
+                  - cell "11234567" [ref=e505]
+                  - cell "SUPPLIER" [ref=e506]
+                  - cell "Midlands" [ref=e507]
+                  - cell "Elevated" [ref=e508]:
+                    - generic [ref=e509]: Elevated
+                  - cell "82" [ref=e511]:
+                    - generic [ref=e515]: "82"
+                  - cell "5" [ref=e516]
+                  - cell "2026-02-24 Annual accounts overdue — HMRC filing default" [ref=e517]:
+                    - generic [ref=e518]:
+                      - paragraph [ref=e519]: 2026-02-24
+                      - paragraph [ref=e520]: Annual accounts overdue — HMRC filing default
+                - 'row "Northern Quay Property Holdings PLC 07654321 BORROWER North West Stable 52 2 2026-02-18 Routine: New director appointment" [ref=e521]':
+                  - cell "Northern Quay Property Holdings PLC" [ref=e522]:
+                    - generic [ref=e525]: Northern Quay Property Holdings PLC
+                  - cell "07654321" [ref=e526]
+                  - cell "BORROWER" [ref=e527]
+                  - cell "North West" [ref=e528]
+                  - cell "Stable" [ref=e529]:
+                    - generic [ref=e530]: Stable
+                  - cell "52" [ref=e532]:
+                    - generic [ref=e536]: "52"
+                  - cell "2" [ref=e537]
+                  - 'cell "2026-02-18 Routine: New director appointment" [ref=e538]':
+                    - generic [ref=e539]:
+                      - paragraph [ref=e540]: 2026-02-18
+                      - paragraph [ref=e541]: "Routine: New director appointment"
+                - row "Sterling Advanced Materials Ltd SC456789 INSURED Scotland Stable 45 1 2026-02-20 Annual confirmation statement filed on time" [ref=e542]:
+                  - cell "Sterling Advanced Materials Ltd" [ref=e543]:
+                    - generic [ref=e546]: Sterling Advanced Materials Ltd
+                  - cell "SC456789" [ref=e547]
+                  - cell "INSURED" [ref=e548]
+                  - cell "Scotland" [ref=e549]
+                  - cell "Stable" [ref=e550]:
+                    - generic [ref=e551]: Stable
+                  - cell "45" [ref=e553]:
+                    - generic [ref=e557]: "45"
+                  - cell "1" [ref=e558]
+                  - cell "2026-02-20 Annual confirmation statement filed on time" [ref=e559]:
+                    - generic [ref=e560]:
+                      - paragraph [ref=e561]: 2026-02-20
+                      - paragraph [ref=e562]: Annual confirmation statement filed on time
+                - row "Ironclad Defence Systems Ltd SC123456 INSURED Scotland Stable 40 1 2026-02-15 Full accounts filed — no anomalies" [ref=e563]:
+                  - cell "Ironclad Defence Systems Ltd" [ref=e564]:
+                    - generic [ref=e567]: Ironclad Defence Systems Ltd
+                  - cell "SC123456" [ref=e568]
+                  - cell "INSURED" [ref=e569]
+                  - cell "Scotland" [ref=e570]
+                  - cell "Stable" [ref=e571]:
+                    - generic [ref=e572]: Stable
+                  - cell "40" [ref=e574]:
+                    - generic [ref=e578]: "40"
+                  - cell "1" [ref=e579]
+                  - cell "2026-02-15 Full accounts filed — no anomalies" [ref=e580]:
+                    - generic [ref=e581]:
+                      - paragraph [ref=e582]: 2026-02-15
+                      - paragraph [ref=e583]: Full accounts filed — no anomalies
+                - row "Apex Logistics Partners Ltd 08765432 BORROWER North West Improved 30 0 2026-02-22 Charge fully satisfied — Lloyds Banking Group" [ref=e584]:
+                  - cell "Apex Logistics Partners Ltd" [ref=e585]:
+                    - generic [ref=e588]: Apex Logistics Partners Ltd
+                  - cell "08765432" [ref=e589]
+                  - cell "BORROWER" [ref=e590]
+                  - cell "North West" [ref=e591]
+                  - cell "Improved" [ref=e592]:
+                    - generic [ref=e593]: Improved
+                  - cell "30" [ref=e595]:
+                    - generic [ref=e599]: "30"
+                  - cell "0" [ref=e600]
+                  - cell "2026-02-22 Charge fully satisfied — Lloyds Banking Group" [ref=e601]:
+                    - generic [ref=e602]:
+                      - paragraph [ref=e603]: 2026-02-22
+                      - paragraph [ref=e604]: Charge fully satisfied — Lloyds Banking Group
+                - 'row "Vantage Digital Services Ltd 13579246 SUPPLIER Midlands Improved 25 0 2026-02-19 Debt cleared: all charges fully satisfied" [ref=e605]':
+                  - cell "Vantage Digital Services Ltd" [ref=e606]:
+                    - generic [ref=e609]: Vantage Digital Services Ltd
+                  - cell "13579246" [ref=e610]
+                  - cell "SUPPLIER" [ref=e611]
+                  - cell "Midlands" [ref=e612]
+                  - cell "Improved" [ref=e613]:
+                    - generic [ref=e614]: Improved
+                  - cell "25" [ref=e616]:
+                    - generic [ref=e620]: "25"
+                  - cell "0" [ref=e621]
+                  - 'cell "2026-02-19 Debt cleared: all charges fully satisfied" [ref=e622]':
+                    - generic [ref=e623]:
+                      - paragraph [ref=e624]: 2026-02-19
+                      - paragraph [ref=e625]: "Debt cleared: all charges fully satisfied"
+        - generic [ref=e627]:
+          - generic [ref=e628]:
+            - generic [ref=e629]:
+              - heading "Risk Degradation // 90D Window" [level=4] [ref=e630]
+              - paragraph [ref=e631]: Counterparty Score Trajectory
+            - combobox [ref=e632] [cursor=pointer]:
+              - option "Cobalt Ventures International Ltd ⬤"
+              - option "Meridian Capital Holdings Ltd ⬤" [selected]
+              - option "Helix Infrastructure Group PLC ⬤"
+              - option "Northern Quay Property Holdings PLC"
+              - option "Sterling Advanced Materials Ltd"
+              - option "Ironclad Defence Systems Ltd"
+              - option "Apex Logistics Partners Ltd"
+              - option "Vantage Digital Services Ltd"
+          - application [ref=e636]:
+            - generic [ref=e645]:
+              - generic [ref=e646]:
+                - generic [ref=e648]: 2025-12-14
+                - generic [ref=e650]: 2025-12-21
+                - generic [ref=e652]: 2025-12-28
+                - generic [ref=e654]: 2026-01-04
+                - generic [ref=e656]: 2026-01-11
+                - generic [ref=e658]: 2026-01-18
+                - generic [ref=e660]: 2026-01-25
+                - generic [ref=e662]: 2026-02-01
+                - generic [ref=e664]: 2026-02-08
+                - generic [ref=e666]: 2026-02-15
+                - generic [ref=e668]: 2026-02-22
+                - generic [ref=e670]: 2026-03-01
+                - generic [ref=e672]: 2026-03-08
+              - generic [ref=e673]:
+                - generic [ref=e675]: "0"
+                - generic [ref=e677]: "25"
+                - generic [ref=e679]: "50"
+                - generic [ref=e681]: "75"
+                - generic [ref=e683]: "100"
+              - generic [ref=e684]: ELEVATED
+          - generic [ref=e685]:
+            - generic [ref=e686]:
+              - paragraph [ref=e687]: Current Tier
+              - text: ELEVATED RISK
+            - generic [ref=e688]:
+              - paragraph [ref=e689]: Conviction
+              - generic [ref=e690]: 88/100
+            - generic [ref=e691]:
+              - paragraph [ref=e692]: Active Charges
+              - text: "4"
+            - generic [ref=e693]:
+              - paragraph [ref=e694]: Dir. Churn
+              - text: "0.72"
+      - generic [ref=e699]:
+        - generic [ref=e700]: Intelligence Synthesis Engine
+        - heading "Generate Adjacency Discovery Memo" [level=4] [ref=e701]
+        - paragraph [ref=e702]: "Synthesize all regional telemetry, talent flows, and shadow market signals into a high-fidelity, board-ready strategic roadmap.Estimated compute time: 3s."
+        - button "Initialize Strategy Swarm" [ref=e704] [cursor=pointer]
+    - generic [ref=e705]:
+      - generic [ref=e706]:
+        - paragraph [ref=e707]: IC ORIGIN CORE // SESSION ACTIVATED
+        - generic [ref=e709]:
+          - generic [ref=e710]: "Status: LIVE_TELEMETRY_ACTIVE"
+          - generic [ref=e711]: "Ping: 12ms"
+      - generic [ref=e712]:
+        - generic [ref=e713]: LATITUDE_DASHBOARD_READY
+        - generic [ref=e714]: API Documentation
+  - alert [ref=e715]
+  - generic [ref=e716]: "-20"
+```

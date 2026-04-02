@@ -1,0 +1,71 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper: User must be signed in
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // User profiles and settings: Private to the authenticated user
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // User Settings: Private to the authenticated user
+    match /user_settings/{settingId} {
+       allow read, write: if isAuthenticated();
+    }
+    
+    // Watchlists: SENSITIVE CLIENT DATA (Restricted)
+    match /watchlists/{watchlistId} {
+      allow read, write: if isAuthenticated();
+      
+      match /targets/{targetId} {
+        allow read, write: if isAuthenticated();
+      }
+    }
+    
+    // Signals/Auctions: Users can read results, but only Backend Admin can write
+    match /auctions/{auctionId} {
+       allow read: if isAuthenticated();
+       allow write: if false; 
+    }
+    
+    // Signals collection (alias for auctions depending on setup)
+    match /signals/{signalId} {
+       allow read: if isAuthenticated();
+       allow write: if false;
+    }
+
+    // [PHASE 1] Audit Logs: Read-only for authenticated users
+    match /audit_logs/{logId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Only via Admin SDK
+    }
+
+    // [PHASE 2] Adjacency Scores: Critical institutional signals
+    match /adjacency_scores/{scoreId} {
+      allow read: if isAuthenticated();
+      allow write: if false; // Managed by Sentinel-Growth
+    }
+
+    // [PHASE 2] Monitored Entities: Enrichment & History
+    match /monitored_entities/{entityId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    // [PHASE 2] Strategic Alerts: Threshold Notifications
+    match /strategic_alerts/{alertId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    // Multi-tenant organization data
+    match /organizations/{orgId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+  }
+}
