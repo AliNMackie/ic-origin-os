@@ -1,0 +1,53 @@
+steps:
+  # 1. Build & Push Ingest Service
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'build-ingest'
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/ingest:$COMMIT_SHA', './services/ic-origin-ingest']
+
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'push-ingest'
+    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/ingest:$COMMIT_SHA']
+
+  # 2. Build & Push Orchestrator Service
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'build-orchestrator'
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/orchestrator:$COMMIT_SHA', './services/ic-origin-orchestrator']
+
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'push-orchestrator'
+    args: ['push', 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/orchestrator:$COMMIT_SHA']
+
+  # 3. Deploy Ingest to Cloud Run (US-Central1 for stability)
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    id: 'deploy-ingest'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'ic-origin-ingest'
+      - '--image'
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/ingest:$COMMIT_SHA'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+
+  # 4. Deploy Orchestrator to Cloud Run (US-Central1 for stability)
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    id: 'deploy-orchestrator'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - 'ic-origin-orchestrator'
+      - '--image'
+      - 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/orchestrator:$COMMIT_SHA'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+
+options:
+  logging: CLOUD_LOGGING_ONLY

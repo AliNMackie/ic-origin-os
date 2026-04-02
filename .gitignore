@@ -36,6 +36,10 @@ wheels/
 !composer.json
 service-account.json
 firebase-key.json
+sentinel-growth-sa.json
+credentials.json
+.env
+*.env
 
 # Terraform
 .terraform/
