@@ -1,8 +1,13 @@
-steps:
+  # 0. Debug Environment
+  - name: 'gcr.io/cloud-builders/docker'
+    id: 'debug-check'
+    entrypoint: 'bash'
+    args: ['-c', 'ls -R']
+
   # 1. Build & Push Ingest Service
   - name: 'gcr.io/cloud-builders/docker'
     id: 'build-ingest'
-    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/ingest:$COMMIT_SHA', './services/ic-origin-ingest']
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/ingest:$COMMIT_SHA', 'services/ic-origin-ingest']
 
   - name: 'gcr.io/cloud-builders/docker'
     id: 'push-ingest'
