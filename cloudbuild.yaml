@@ -1,3 +1,4 @@
+steps:
   # 0. Debug Environment
   - name: 'gcr.io/cloud-builders/docker'
     id: 'debug-check'
@@ -16,7 +17,7 @@
   # 2. Build & Push Orchestrator Service
   - name: 'gcr.io/cloud-builders/docker'
     id: 'build-orchestrator'
-    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/orchestrator:$COMMIT_SHA', './services/ic-origin-orchestrator']
+    args: ['build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/ic-origin-ingest-repo/orchestrator:$COMMIT_SHA', 'services/ic-origin-orchestrator']
 
   - name: 'gcr.io/cloud-builders/docker'
     id: 'push-orchestrator'
