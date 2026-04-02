@@ -63,9 +63,9 @@ out/
 Thumbs.db
 
 # Data
-data/*.csv
-data/*.xlsx
-data/*.json
+# data/*.csv
+# data/*.xlsx
+# data/*.json
 !src/core/sector_presets.json
 
 # IDEs
