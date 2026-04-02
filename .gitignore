@@ -49,6 +49,7 @@ credentials.json
 .terraform.lock.hcl
 *.txt
 *.tx
+!requirements.txt
 !README.txt
 !LICENSE.txt
 !package.json
